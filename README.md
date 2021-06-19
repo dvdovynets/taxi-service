@@ -1,5 +1,5 @@
 # Taxi Service
- The goal of this project is to create a simple taxi service. The project implements driver authentication with different functionality:
+ The goal of this project was to create a simple taxi service. The project implements driver authentication with different functionality:
  - To use all features you need to create new driver and authenticate
  - Driver can add himself to different cars 
  - View all drivers

@@ -1,5 +1,8 @@
 # Taxi Service
  The goal of this project was to create a simple taxi service. The project implements driver authentication with different functionality:
+ - During the first launch you will be redirected to a login page where you have two opportunities:
+   * register a new driver
+   * login as a previously registered driver
  - To use all features you need to create new driver and authenticate
  - Driver can add himself to different cars 
  - View all drivers
@@ -21,7 +24,7 @@ Project based on 3-layer architecture:
 * HTML, CSS
 
 ## Setup
-1. Configure Apache Tomcat 
+1. Configure Apache Tomcat (Use web_project:war exploded and leave @Application contex@ : "/")
 2. Install MySQL and MySQL Workbench
 3. Create a schema and all the necessary tables by using the script from resources/init_db.sql in MySQL Workbench
 4. In the /util/ConnectionUtil.java class change the "user" and "password" properties to the ones you specified when installing MySQL
